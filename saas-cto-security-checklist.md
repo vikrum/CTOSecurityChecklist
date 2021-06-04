@@ -7,7 +7,6 @@ image: images/blog/blog-saas-checklist.jpg
 
 Doing the basics goes a long way in keeping your company and product secure. This third<sup>1</sup> edition of the SaaS CTO Security Checklist provides actionable security best practices CTOs (or anyone for that matter) can use to harden their security. This list is far from exhaustive, incomplete by nature since the security you need depends on your company, product, and assets.
 
-<sup>1</sup> <small>[CCA ShareAlike 4.0 International](https://github.com/sqreen/CTOSecurityChecklist/blob/master/LICENSE.md). This guide is based on, adapts, and picks up the baton where the excellent Sqreen checklist left off (which is no longer available since it redirects to their acquisition announcement).</small>
 
 <div onclick="document.body.querySelectorAll('details').forEach((e) => (e.hasAttribute('open')) ? e.removeAttribute('open') : e.setAttribute('open',true))"><center>&#x2766;</center></div>
 
@@ -767,3 +766,5 @@ https://castle.io
 * [When should my startup prioritize infosec?](https://www.goldfiglabs.com/blog/when-should-my-startup-prioritize-infosec/) - How do I know when I should start paying down security tech debt?
 * [How Early-Stage Startups Can Enlist The Right Amount of Security As They Grow](https://review.firstround.com/how-early-stage-startups-can-enlist-the-right-amount-of-security-as-they-grow) - An approach to security through the prism of headcount.
 * [A Comprehensive Guide to Security for Startups](https://www.bvp.com/atlas/security-for-startups)
+
+<sup>1</sup> <small>[CCA ShareAlike 4.0 International](https://github.com/vikrum/CTOSecurityChecklist/blob/master/LICENSE.md). This guide is based on, adapts, and picks up the baton where the excellent Sqreen checklist left off (which is no longer available since it redirects to their acquisition announcement).</small>
