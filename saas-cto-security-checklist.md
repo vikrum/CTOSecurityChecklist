@@ -267,8 +267,6 @@ https://snyk.io/
 
 https://github.com/bridgecrewio/checkov
 
-https://docs.sqreen.com/security-automation/introduction-playbooks/
-
 </details>
 
 <details><summary>Don’t forget about your FaaS security <button class=stage>now</button></summary>
@@ -301,8 +299,6 @@ https://www.softwaretestinghelp.com/penetration-testing-guide/
 
 https://blog.sqreen.com/leverage-pentest/
 
-https://www.sqreen.com/checklists/pentest-checklist
-
 </details>
 
 <details><summary>Keep track of your dependencies <button class=stage>now</button></summary>
@@ -332,8 +328,6 @@ These days, WAFs are pretty outdated. It’s better to use services that sit clo
 https://www.rapid7.com/blog/post/2019/09/04/rasp-101-what-is-runtime-application-self-protection/
 
 https://www.contrastsecurity.com/runtime-application-self-protection-rasp
-
-https://www.sqreen.com/
 
 http://www8.hp.com/us/en/software-solutions/appdefender-application-self-protection/
 </details>
@@ -379,8 +373,6 @@ Websites are exposed to many different classes of vulnerabilities, and some may 
 
 ##### Read more:
 
-https://www.sqreen.com/scanner
-
 https://securityheaders.com
 
 https://www.ssllabs.com/
@@ -394,8 +386,6 @@ Only your public APIs should be exposed to the Internet. You should isolate your
 ##### Read more:
 
 https://docs.aws.amazon.com/AmazonVPC/latest/UserGuide/VPC_Subnets.html
-
-https://www.sqreen.com/resources/aws-security
 
 </details>
 
@@ -602,8 +592,6 @@ https://www.esecurityplanet.com/trends/tips-for-protecting-your-domain-names/
 This is a page on your corporate website describing how you secure your users and their data, and how you plan to respond to external bug reports. You should advise that you support responsible disclosure. Keep in mind that you will likely receive reports of varying impact, so having a process for prioritizing them is important.
 
 ##### Read more:
-
-https://www.sqreen.com/resources/security-page
 
 https://www.airbnb.com/security
 
