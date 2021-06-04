@@ -1,4 +1,5 @@
-[![logo](https://www.goldfiglabs.com/images/blog/blog-saas-checklist.jpg)](https://www.goldfiglabs.com/guide/saas-cto-security-checklist/)
+[![blog-saas-checklist](https://user-images.githubusercontent.com/291215/120830444-5a010980-c513-11eb-97fa-9dcf6d96e169.jpg)](https://www.goldfiglabs.com/guide/saas-cto-security-checklist/)
+
 
 # The SaaS CTO Security Checklist Redux
 
