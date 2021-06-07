@@ -21,6 +21,22 @@ https://www.secureworks.com/blog/cybersecurity-awareness-training-best-practices
 
 </details>
 
+<details><summary>Require 2FA wherever possible <button class=stage>now</button></summary>
+
+Your employees should all use 2-factor authentication. By adding 2FA, you add an extra layer of security. Should your employee’s password get stolen, the attacker would still be locked out unless they have access to the second factor (e.g. phone app or text) as well. As a CTO, your role is to make sure everyone complies with this rule. Phones are the most commonly used device for second factors, and thus have to be secured accordingly (e.g. with codes or biometry). Another option is to use purpose-built hardware-based 2FA, like Yubikeys.
+
+##### Read more:
+
+https://en.wikipedia.org/wiki/Multi-factor_authentication
+
+https://support.google.com/a/answer/184711
+
+https://get.slack.help/hc/en-us/articles/212221668-Require-two-factor-authentication-for-your-team
+
+https://www.yubico.com/why-yubico/how-yubikey-works/
+
+</details>
+
 <details><summary>Accustom your team to locking their computers <button class=stage>now</button></summary>
 
 Your office may be secured, but you will eventually have to receive external people for a party or a meeting. Someone with physical access to an employee computer can do a lot of harm in a very short amount of time, so locking all computers is a great habit. If you get in the habit of locking your machine at the office, you’ll be unlikely to forget to also do it in a Starbucks or at a meetup.
@@ -30,7 +46,7 @@ Your office may be secured, but you will eventually have to receive external peo
 https://www.cnet.com/how-to/7-ways-to-lock-your-macbook
 </details>
 
-<details><summary>Do not share user accounts <button class=stage>next</button></summary>
+<details><summary>Do not share user accounts <button class=stage>now</button></summary>
 
 Sharing a user account makes it hard to understand who is using the service or to identify who has performed a given action. This makes it much harder to recognize when an account has been taken over by an outside party. It also makes it harder to remove access to an account when employees leave the company, opening that account up to potential abuse.
 </details>
@@ -90,33 +106,6 @@ https://medium.com/starting-up-security/hiring-the-cso-b737c30e098f
 https://www.darkreading.com/threat-intelligence/the–typical–security-engineer-hiring-myths-and-stereotypes/a/d-id/133334
 </details>
 
-<details><summary>Monitor your user’s computers <button class=stage>later</button></summary>
-The more employees you have, the bigger the risk of them getting infected by malicious software, such as botnets. Using a HIPS system on employee hardware could help you get ahead of any problems via alerts and notifications.
-
-##### Read more:
-
-https://www.stormshield.com/
-
-https://www.microsoft.com/en-us/windows/windows-defender/
-
-</details>
-
-<details><summary>Require 2FA wherever possible <button class=stage>now</button></summary>
-
-Your employees should all use 2-factor authentication. By adding 2FA, you add an extra layer of security. Should your employee’s password get stolen, the attacker would still be locked out unless they have access to the second factor (e.g. phone app or text) as well. As a CTO, your role is to make sure everyone complies with this rule. Phones are the most commonly used device for second factors, and thus have to be secured accordingly (e.g. with codes or biometry). Another option is to use purpose-built hardware-based 2FA, like Yubikeys.
-
-##### Read more:
-
-https://en.wikipedia.org/wiki/Multi-factor_authentication
-
-https://support.google.com/a/answer/184711
-
-https://get.slack.help/hc/en-us/articles/212221668-Require-two-factor-authentication-for-your-team
-
-https://www.yubico.com/why-yubico/how-yubikey-works/
-
-</details>
-
 <details><summary>Use a password manager to ensure you only use strong passwords <button class=stage>now</button></summary>
 Using a complex and unique password for every website is great advice, but it can be very difficult to remember all of them. Rather than reusing passwords or storing your passwords somewhere others could access, use a password manager. Password managers are a great way to manage multiple passwords across sites, since they will remember everything for you with a single master password, and can often generate unique strong passwords for you. Encourage your employees to do likewise, and purchase a business plan to a password manager if necessary.
 
@@ -134,34 +123,6 @@ https://passwords.google.com/
 
 </details>
 
-<details><summary>Use centralized account management <button class=stage>next</button></summary>
-
-Having a centralized place with all user authorizations is the best way not to forget anything once you need to update a user profile (e.g. if an internship came to its end). It is also a great place to define the standard account creation process you need for a given user. If you can, implement SSO to simplify and automate this process.
-
-Configuring with Google Apps: https://support.google.com/a/answer/6087519
-</details>
-
-### 💻 Your code
-<details><summary>Add security bugs to your incident tracking tool <button class=stage>now</button></summary>
-
-Every developer should contribute to maintaining a list of security issues that need to be fixed in the future. Making them available to the rest of the team will increase security awareness in your company.
-
-Treat security bugs like any other type of bug – determine their priority based on whether or not they are exploitable and the damage that could be done. Additionally, hold post-mortems for serious security bugs with the team to ensure that everyone gets visibility and learns from them.
-
-</details>
-
-<details><summary>Automate security within your SDLC <button class=stage>later</button></summary>
-
-If your security practices impact your development velocity, they will be looked at as more of a burden than a valuable step. The best practices today are to take lessons from DevOps and find ways to bring security closer to developers. Leverage tools that can automate security checks and monitoring. Implementing automated SAST/DAST tools, vulnerability dependency scanning, and others will help you catch the obvious flaws before they get into production. Just beware that you’ll have to sift through false positives and that these tools have limited scope.
-
-##### Read more:
-
-https://en.wikipedia.org/wiki/Systems_development_life_cycle
-
-https://github.com/devsecops/awesome-devsecops
-
-</details>
-
 <details><summary>Enforce a secure code review checklist <button class=stage>now</button></summary>
 
 Security should always be kept in mind while coding. Pull request reviews should be performed with security in mind as well. Depending on where the code is, the checks should be different. Dealing with user entry is one thing, dealing with business structures is another – the concerns are related to the context.
@@ -173,6 +134,34 @@ Security competency is also a good topic to ask about when interviewing a candid
 ##### Read more:
 
 https://www.owasp.org/index.php/Top_10-2017_Top_10
+
+</details>
+
+
+<details><summary>Use centralized account management <button class=stage>next</button></summary>
+
+Having a centralized place with all user authorizations is the best way not to forget anything once you need to update a user profile (e.g. if an internship came to its end). It is also a great place to define the standard account creation process you need for a given user. If you can, implement SSO to simplify and automate this process.
+
+Configuring with Google Apps: https://support.google.com/a/answer/6087519
+</details>
+
+<details><summary>Monitor your user’s computers <button class=stage>later</button></summary>
+The more employees you have, the bigger the risk of them getting infected by malicious software, such as botnets. Using a HIPS system on employee hardware could help you get ahead of any problems via alerts and notifications.
+
+##### Read more:
+
+https://www.stormshield.com/
+
+https://www.microsoft.com/en-us/windows/windows-defender/
+
+</details>
+
+### 💻 Your code
+<details><summary>Add security bugs to your incident tracking tool <button class=stage>now</button></summary>
+
+Every developer should contribute to maintaining a list of security issues that need to be fixed in the future. Making them available to the rest of the team will increase security awareness in your company.
+
+Treat security bugs like any other type of bug – determine their priority based on whether or not they are exploitable and the damage that could be done. Additionally, hold post-mortems for serious security bugs with the team to ensure that everyone gets visibility and learns from them.
 
 </details>
 
@@ -205,17 +194,17 @@ Always rely on existing mechanisms, libraries, and tools. Cryptography is an exp
 
 </details>
 
-<details><summary>Onboard your software engineers with a security training <button class=stage>later</button></summary>
+<details><summary>Use a pre-production analysis tool <button class=stage>now</button></summary>
 
-Secure applications start with secure developers. Your software engineers need to be aware of security best practices in order to write secure code and to perform security-minded code reviews. Since security is usually not something hiring managers consider during recruitment, an initial training at onboarding will help your devs reach a minimum level of security.
+Pre-production analysis tools like static code analysis (SAST) can help identify some of your low-hanging security fruits. They also improve the overall security awareness of your team when the checks are automatically integrated into the code review process. But keep in mind that these tools generate a lot of false positives that can quickly overwhelm you with meaningless alerts. The best practice is to make them part of your process, but not too rely too heavily on them.
 
-Also, consider checking for security competency during the hiring process. This will help you better shape your training.
+Tools:
 
-Some good security training options:
+https://www.owasp.org/index.php/Source_Code_Analysis_Tools
 
-https://safecode.org
+Findbugs (Java)
 
-https://sudo.pagerduty.com/
+Brakeman (Ruby)
 
 </details>
 
@@ -231,17 +220,30 @@ https://www.owasp.org/index.php/OWASP_Testing_Guide_v4_Table_of_Contents
 
 </details>
 
-<details><summary>Use a pre-production analysis tool <button class=stage>now</button></summary>
 
-Pre-production analysis tools like static code analysis (SAST) can help identify some of your low-hanging security fruits. They also improve the overall security awareness of your team when the checks are automatically integrated into the code review process. But keep in mind that these tools generate a lot of false positives that can quickly overwhelm you with meaningless alerts. The best practice is to make them part of your process, but not too rely too heavily on them.
+<details><summary>Automate security within your SDLC <button class=stage>later</button></summary>
 
-Tools:
+If your security practices impact your development velocity, they will be looked at as more of a burden than a valuable step. The best practices today are to take lessons from DevOps and find ways to bring security closer to developers. Leverage tools that can automate security checks and monitoring. Implementing automated SAST/DAST tools, vulnerability dependency scanning, and others will help you catch the obvious flaws before they get into production. Just beware that you’ll have to sift through false positives and that these tools have limited scope.
 
-https://www.owasp.org/index.php/Source_Code_Analysis_Tools
+##### Read more:
 
-Findbugs (Java)
+https://en.wikipedia.org/wiki/Systems_development_life_cycle
 
-Brakeman (Ruby)
+https://github.com/devsecops/awesome-devsecops
+
+</details>
+
+<details><summary>Onboard your software engineers with a security training <button class=stage>later</button></summary>
+
+Secure applications start with secure developers. Your software engineers need to be aware of security best practices in order to write secure code and to perform security-minded code reviews. Since security is usually not something hiring managers consider during recruitment, an initial training at onboarding will help your devs reach a minimum level of security.
+
+Also, consider checking for security competency during the hiring process. This will help you better shape your training.
+
+Some good security training options:
+
+https://safecode.org
+
+https://sudo.pagerduty.com/
 
 </details>
 
@@ -289,17 +291,6 @@ https://techbeacon.com/enterprise-it/how-lock-down-your-serverless-apps-five-ste
 
 </details>
 
-<details><summary>Hire an external penetration testing team <button class=stage>later</button></summary>
-
-Pentesters take an external and naive point of view of your infrastructure and products. They will take nothing for granted and will check even the most basic assumptions, as well as all of your infrastructure. The experience can help focus your security efforts and mindset.
-
-##### Read more:
-
-https://www.softwaretestinghelp.com/penetration-testing-guide/
-
-https://blog.sqreen.com/leverage-pentest/
-
-</details>
 
 <details><summary>Keep track of your dependencies <button class=stage>now</button></summary>
 
@@ -332,6 +323,18 @@ https://www.contrastsecurity.com/runtime-application-self-protection-rasp
 http://www8.hp.com/us/en/software-solutions/appdefender-application-self-protection/
 </details>
 
+<details><summary>Hire an external penetration testing team <button class=stage>later</button></summary>
+
+Pentesters take an external and naive point of view of your infrastructure and products. They will take nothing for granted and will check even the most basic assumptions, as well as all of your infrastructure. The experience can help focus your security efforts and mindset.
+
+##### Read more:
+
+https://www.softwaretestinghelp.com/penetration-testing-guide/
+
+https://blog.sqreen.com/leverage-pentest/
+
+</details>
+
 
 ### 🏗 Your infrastructure
 <details><summary>Backup, test your backups, then backup again <button class=stage>now</button></summary>
@@ -351,21 +354,6 @@ https://quay.io/
 
 </details>
 
-<details><summary>Centralize and archive your logs and make them meaningful <button class=stage>next</button></summary>
-
-Logs are very useful for understanding what happened after an incident occurs, finding where an attacker came from, and possibly even who they are. Many solutions exist to gather and organize logs.
-
-Don’t forget, you need to take care that the system time configured on each of your machines is in sync so that you can easily cross-correlate logs. You’ll have a much harder time if they’re not (no pun intended).
-
-##### Read more:
-
-https://en.wikipedia.org/wiki/Network_Time_Protocol
-
-https://www.loggly.com/
-
-https://www.elastic.co/products/kibana
-
-</details>
 
 <details><summary>Check your website's basic security <button class=stage>now</button></summary>
 
@@ -412,6 +400,34 @@ https://cloud.google.com/container-analysis/docs/vulnerability-scanning
 https://docs.aws.amazon.com/AmazonECR/latest/userguide/image-scanning.html
 
 https://quay.io/
+</details>
+
+<details><summary>Use encryption on all your websites and APIs <button class=stage>now</button></summary>
+
+Encrypting communications is not only about privacy, but also about your users’ safety, since it will prevent most attempts at tampering with what they receive.
+
+A free popular solution is: https://letsencrypt.org/
+
+##### Read more:
+
+https://support.google.com/webmasters/answer/6073543?hl=en
+
+</details>
+
+<details><summary>Centralize and archive your logs and make them meaningful <button class=stage>next</button></summary>
+
+Logs are very useful for understanding what happened after an incident occurs, finding where an attacker came from, and possibly even who they are. Many solutions exist to gather and organize logs.
+
+Don’t forget, you need to take care that the system time configured on each of your machines is in sync so that you can easily cross-correlate logs. You’ll have a much harder time if they’re not (no pun intended).
+
+##### Read more:
+
+https://en.wikipedia.org/wiki/Network_Time_Protocol
+
+https://www.loggly.com/
+
+https://www.elastic.co/products/kibana
+
 </details>
 
 <details><summary>Know how to redeploy your infrastructure from scratch <button class=stage>later</button></summary>
@@ -479,17 +495,6 @@ https://aws.amazon.com/fr/blogs/security/securely-connect-to-linux-instances-run
 
 </details>
 
-<details><summary>Use encryption on all your websites and APIs <button class=stage>now</button></summary>
-
-Encrypting communications is not only about privacy, but also about your users’ safety, since it will prevent most attempts at tampering with what they receive.
-
-A free popular solution is: https://letsencrypt.org/
-
-##### Read more:
-
-https://support.google.com/webmasters/answer/6073543?hl=en
-
-</details>
 
 <details><summary>Watch for unusual patterns in your metrics <button class=stage>next</button></summary>
 
@@ -534,27 +539,30 @@ https://i.blackhat.com/eu-18/Wed-Dec-5/eu-18-OBoyle-SDL-at-Scale-Growing-Securit
 
 </details>
 
-<details><summary>Create an inventory of your company’s assets <button class=stage>later</button></summary>
-
-A mapping of your company’s assets enables you to monitor the points that need the most attention and vulnerabilities that need to be hardened. You can’t understand your security if you don’t know all the assets that should be secure.
-
-For your servers, this is built-in if you are using a cloud service or a PaaS and all your machines are registered / spawned through it. Otherwise, you will need to review all your assets regularly to determine if you still need them, to keep them up to date, and to ensure that they benefit from your latest deployments.
-
-##### Read more:
-
-https://github.com/goldfiglabs/introspector
-
-https://github.com/lyft/cartography
-
-https://resources.infosecinstitute.com/asset-management-guide-information-security-professionals/
-
-https://magoo.github.io/simple-risk/
-
-</details>
 
 <details><summary>Do not share your wifi network <button class=stage>now</button></summary>
 
 Sharing your company wifi network with guests or neighbors may give them the opportunity to gather information on your network, and allow them to access resources protected by source IP. Use an isolated and dedicated guest wifi network instead. Set up a calendar reminder to change the password every two months, since this password is shared among a potentially large number of people outside your organization.
+
+</details>
+
+<details><summary>Make sure all your critical services are secured <button class=stage>now</button></summary>
+
+Many companies rely on 3rd-party services and platforms like Google Apps, Slack, and Wordpress. These services all have default settings that should be improved to increase their security level. All these services should be updated and checked on a regular basis, particularly when new versions come out.
+
+##### Read more:
+
+https://landing.google.com/advancedprotection/
+
+https://blog.trailofbits.com/2015/07/07/how-to-harden-your-google-apps/
+
+https://support.google.com/a/answer/7587183?hl=en
+
+https://docs.github.com/en/organizations/keeping-your-organization-secure/requiring-two-factor-authentication-in-your-organization
+
+https://medium.com/@longtermsec/more-tips-for-securing-your-g-suite-4d617bd04bc8
+
+https://get.slack.help/hc/en-us/articles/115004155306-Security-tips-to-protect-your-workspace
 
 </details>
 
@@ -617,6 +625,24 @@ https://www.amazon.com/How-Measure-Anything-Cybersecurity-Risk/dp/1536669741
 
 </details>
 
+<details><summary>Create an inventory of your company’s assets <button class=stage>later</button></summary>
+
+A mapping of your company’s assets enables you to monitor the points that need the most attention and vulnerabilities that need to be hardened. You can’t understand your security if you don’t know all the assets that should be secure.
+
+For your servers, this is built-in if you are using a cloud service or a PaaS and all your machines are registered / spawned through it. Otherwise, you will need to review all your assets regularly to determine if you still need them, to keep them up to date, and to ensure that they benefit from your latest deployments.
+
+##### Read more:
+
+https://github.com/goldfiglabs/introspector
+
+https://github.com/lyft/cartography
+
+https://resources.infosecinstitute.com/asset-management-guide-information-security-professionals/
+
+https://magoo.github.io/simple-risk/
+
+</details>
+
 <details><summary>Have an internal security policy <button class=stage>later</button></summary>
 
 This is a short document outlining the security requirements in your company for your employees and defining who is responsible and who they can turn to for all things security. Make this part of onboarding and ensure that it’s easy to find.
@@ -648,25 +674,6 @@ https://cloud.google.com/security-command-center
 
 </details>
 
-<details><summary>Make sure all your critical services are secured <button class=stage>now</button></summary>
-
-Many companies rely on 3rd-party services and platforms like Google Apps, Slack, and Wordpress. These services all have default settings that should be improved to increase their security level. All these services should be updated and checked on a regular basis, particularly when new versions come out.
-
-##### Read more:
-
-https://landing.google.com/advancedprotection/
-
-https://blog.trailofbits.com/2015/07/07/how-to-harden-your-google-apps/
-
-https://support.google.com/a/answer/7587183?hl=en
-
-https://docs.github.com/en/organizations/keeping-your-organization-secure/requiring-two-factor-authentication-in-your-organization
-
-https://medium.com/@longtermsec/more-tips-for-securing-your-g-suite-4d617bd04bc8
-
-https://get.slack.help/hc/en-us/articles/115004155306-Security-tips-to-protect-your-workspace
-
-</details>
 
 <details><summary>Prepare your security for scale <button class=stage>next</button></summary>
 
@@ -699,6 +706,20 @@ https://cobalt.io
 </details>
 
 ### ⚡️ Your product users
+<details><summary>Enforce a password policy <button class=stage>now</button></summary>
+
+Your users’ accounts will be much harder to steal if you require them to use strong passwords. Ideally, stick with common strong password policy requirements, to prevent your users from getting frustrated at not remembering some arcane rule.
+
+Remember that NIST has updated its guidelines length &gt; complexity.
+
+##### Read more:
+
+https://auth0.com/blog/dont-pass-on-the-new-nist-password-guidelines/
+
+https://www.digicert.com/blog/creating-password-policy-best-practices/
+
+</details>
+
 <details><summary>Double down on user privacy <button class=stage>next</button></summary>
 
 Many successful attacks happen through social engineering. This means that access to your users’ data has to be a big deal to you. Require a user’s explicit consent before allowing support / sales to access their data. This access should also be audited. Good security hygiene here can make social engineering attempts to get into your users’ data harder.
@@ -722,19 +743,6 @@ https://www.okta.com/
 https://webauthn.io/
 </details>
 
-<details><summary>Enforce a password policy <button class=stage>now</button></summary>
-
-Your users’ accounts will be much harder to steal if you require them to use strong passwords. Ideally, stick with common strong password policy requirements, to prevent your users from getting frustrated at not remembering some arcane rule.
-
-Remember that NIST has updated its guidelines length &gt; complexity.
-
-##### Read more:
-
-https://auth0.com/blog/dont-pass-on-the-new-nist-password-guidelines/
-
-https://www.digicert.com/blog/creating-password-policy-best-practices/
-
-</details>
 
 <details><summary>Monitor your user’s suspicious activities <button class=stage>next</button></summary>
 
