@@ -145,7 +145,7 @@ Having a centralized place with all user authorizations is the best way not to f
 Configuring with Google Apps: https://support.google.com/a/answer/6087519
 </details>
 
-<details><summary>Monitor your user’s computers <button class=stage>later</button></summary>
+<details><summary>Invest in reputable corporate laptop & computer monitoring for malware and viruses<button class=stage>later</button></summary>
 The more employees you have, the bigger the risk of them getting infected by malicious software, such as botnets. Using a HIPS system on employee hardware could help you get ahead of any problems via alerts and notifications.
 
 ##### Read more:
