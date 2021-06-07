@@ -29,6 +29,10 @@ Your employees should all use 2-factor authentication. By adding 2FA, you add an
 
 https://en.wikipedia.org/wiki/Multi-factor_authentication
 
+https://landing.google.com/advancedprotection/
+
+https://docs.github.com/en/organizations/keeping-your-organization-secure/requiring-two-factor-authentication-in-your-organization
+
 https://support.google.com/a/answer/184711
 
 https://get.slack.help/hc/en-us/articles/212221668-Require-two-factor-authentication-for-your-team
