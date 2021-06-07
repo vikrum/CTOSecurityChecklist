@@ -93,22 +93,6 @@ https://github.com/92bondstreet/awesome-onboarding
 https://www.rippling.com/
 </details>
 
-<details><summary>Hire your first security engineer <button class=stage>later</button></summary>
-
-As your company grows, you’ll want to bring in a security expert and centralize your application security responsibilities on them. To determine if it’s the right time to do so, ask yourself the following questions:
-do we have a security roadmap?
-do we manage to deliver on it?
-
-If you don’t, then it’s the time to strategically consider what your security roadmap should look like, and to find out what kind of security engineer you need.
-
-It’s important to note that you shouldn’t hire a specialized security person too early. Early on, security is something that needs to be baked into your engineering organization rather than immediately offloaded to someone else. Only when your engineering team is fully bought into security but is simply getting overwhelmed should you bring in a specialized security engineer.
-
-##### Read more:
-
-https://medium.com/starting-up-security/hiring-the-cso-b737c30e098f
-
-https://www.darkreading.com/threat-intelligence/the–typical–security-engineer-hiring-myths-and-stereotypes/a/d-id/133334
-</details>
 
 <details><summary>Use a password manager to ensure you only use strong passwords <button class=stage>now</button></summary>
 Using a complex and unique password for every website is great advice, but it can be very difficult to remember all of them. Rather than reusing passwords or storing your passwords somewhere others could access, use a password manager. Password managers are a great way to manage multiple passwords across sites, since they will remember everything for you with a single master password, and can often generate unique strong passwords for you. Encourage your employees to do likewise, and purchase a business plan to a password manager if necessary.
@@ -158,6 +142,23 @@ https://www.stormshield.com/
 
 https://www.microsoft.com/en-us/windows/windows-defender/
 
+</details>
+
+<details><summary>Hire your first security engineer <button class=stage>later</button></summary>
+
+As your company grows, you’ll want to bring in a security expert and centralize your application security responsibilities on them. To determine if it’s the right time to do so, ask yourself the following questions:
+do we have a security roadmap?
+do we manage to deliver on it?
+
+If you don’t, then it’s the time to strategically consider what your security roadmap should look like, and to find out what kind of security engineer you need.
+
+It’s important to note that you shouldn’t hire a specialized security person too early. Early on, security is something that needs to be baked into your engineering organization rather than immediately offloaded to someone else. Only when your engineering team is fully bought into security but is simply getting overwhelmed should you bring in a specialized security engineer.
+
+##### Read more:
+
+https://medium.com/starting-up-security/hiring-the-cso-b737c30e098f
+
+https://www.darkreading.com/threat-intelligence/the–typical–security-engineer-hiring-myths-and-stereotypes/a/d-id/133334
 </details>
 
 ### 💻 Your code
@@ -434,21 +435,6 @@ https://www.elastic.co/products/kibana
 
 </details>
 
-<details><summary>Know how to redeploy your infrastructure from scratch <button class=stage>later</button></summary>
-
-Hopefully you never need to, but in the case of a disaster, this allows you to quickly spawn new infrastructure and populate it with data from your backups. This is the perfect use case for disaster recovery.
-
-##### Read more:
-
-https://aws.amazon.com/cloudformation/
-
-https://cloud.google.com/deployment-manager/
-
-https://www.terraform.io/
-
-https://www.pulumi.com/
-
-</details>
 
 <details><summary>Monitor exposed services <button class=stage>next</button></summary>
 
@@ -462,15 +448,6 @@ https://github.com/toniblyx/my-arsenal-of-aws-security-tools
 
 </details>
 
-<details><summary>Monitor internal services <button class=stage>later</button></summary>
-
-It’s a fairly common attitude to not focus on the security of your internal services as much as your external services. However, as you get bigger, you will lose visibility on the services used internally. When you start to lose track of internal services, they become a vector through which viruses or worms could spread. Additionally, more people (like contractors) will have access to your internal network. If it’s not secured, this puts it at risk.
-
-##### Read more:
-
-https://www.tenable.com/downloads/nessus
-
-</details>
 
 <details><summary>Protect your application from DDoS attacks <button class=stage>next</button></summary>
 
@@ -509,6 +486,32 @@ Takeovers will often be used to steal your data or setup your servers to be used
 https://newrelic.com/server-monitoring
 
 https://www.sysdig.com/
+
+<details><summary>Know how to redeploy your infrastructure from scratch <button class=stage>later</button></summary>
+
+Hopefully you never need to, but in the case of a disaster, this allows you to quickly spawn new infrastructure and populate it with data from your backups. This is the perfect use case for disaster recovery.
+
+##### Read more:
+
+https://aws.amazon.com/cloudformation/
+
+https://cloud.google.com/deployment-manager/
+
+https://www.terraform.io/
+
+https://www.pulumi.com/
+
+</details>
+
+<details><summary>Monitor internal services <button class=stage>later</button></summary>
+
+It’s a fairly common attitude to not focus on the security of your internal services as much as your external services. However, as you get bigger, you will lose visibility on the services used internally. When you start to lose track of internal services, they become a vector through which viruses or worms could spread. Additionally, more people (like contractors) will have access to your internal network. If it’s not secured, this puts it at risk.
+
+##### Read more:
+
+https://www.tenable.com/downloads/nessus
+
+</details>
 
 </details>
 
@@ -611,6 +614,51 @@ https://www.apple.com/support/security/
 
 </details>
 
+<details><summary>Leverage tools to prioritize your security <button class=stage>next</button></summary>
+Early on, you’ll want to focus on enhancing your security with smart internal practices. However, as you grow, it becomes more and more worth it to bring in some useful security tools. For instance, AWS offers AWS Trusted Advisor which, for a fraction of your billing, will provide you with actionable insights about your infrastructure security. Others can help you with different parts of your total security needs, from your application to your infrastructure.
+
+##### Read more:
+
+https://www.goldfiglabs.com/
+
+https://forsetisecurity.org/
+
+https://github.com/toniblyx/my-arsenal-of-aws-security-tools
+
+https://runpanther.io/
+
+https://aws.amazon.com/premiumsupport/technology/trusted-advisor/
+
+https://cloud.google.com/security-command-center
+
+</details>
+
+
+<details><summary>Prepare your security for scale <button class=stage>next</button></summary>
+
+Scale comes to each company differently. In many startups, scale occurs on various levels, whether it is in the size of the sales team, a big growth in the engineering team, opening new offices, etc. Each of these scaling events brings specific challenges. For example, how are you gonna run your security onboarding in a new office abroad if the employees there don’t speak the same language? It’s important to evaluate your security policies and practices with each scaling event you have.
+
+
+##### Read more:
+
+https://ayeks.de/post/2018-06-11-automating_and_scaling_security/
+
+</details>
+
+
+<details><summary>Set up a bug bounty program <button class=stage>next</button></summary>
+
+A bug bounty program will allow external hackers to report vulnerabilities. Most of the bug bounty programs set rewards in place. You need security-aware people inside your development teams to evaluate any reports you receive, so make sure that you have the right internal resources before you set up such a program.
+
+##### Read more:
+
+https://www.yeswehack.com/en/index.html
+
+https://hackerone.com/
+
+https://cobalt.io
+</details>
+
 <details><summary>Have a security incident response plan <button class=stage>later</button></summary>
 
 This will allow whoever is in charge at the time of a breach to communicate accordingly about an incident and will allow for the fastest response. Trying to make your plan up in the heat of the moment can make the impact of breaches much worse.
@@ -659,54 +707,10 @@ https://medium.com/starting-up-security/starting-up-security-policy-104261d5438a
 
 </details>
 
-<details><summary>Leverage tools to prioritize your security <button class=stage>next</button></summary>
-Early on, you’ll want to focus on enhancing your security with smart internal practices. However, as you grow, it becomes more and more worth it to bring in some useful security tools. For instance, AWS offers AWS Trusted Advisor which, for a fraction of your billing, will provide you with actionable insights about your infrastructure security. Others can help you with different parts of your total security needs, from your application to your infrastructure.
-
-##### Read more:
-
-https://www.goldfiglabs.com/
-
-https://forsetisecurity.org/
-
-https://github.com/toniblyx/my-arsenal-of-aws-security-tools
-
-https://runpanther.io/
-
-https://aws.amazon.com/premiumsupport/technology/trusted-advisor/
-
-https://cloud.google.com/security-command-center
-
-</details>
-
-
-<details><summary>Prepare your security for scale <button class=stage>next</button></summary>
-
-Scale comes to each company differently. In many startups, scale occurs on various levels, whether it is in the size of the sales team, a big growth in the engineering team, opening new offices, etc. Each of these scaling events brings specific challenges. For example, how are you gonna run your security onboarding in a new office abroad if the employees there don’t speak the same language? It’s important to evaluate your security policies and practices with each scaling event you have.
-
-
-##### Read more:
-
-https://ayeks.de/post/2018-06-11-automating_and_scaling_security/
-
-</details>
-
 <details><summary>Protect against domain name phishing <button class=stage>later</button></summary>
 
 Some attackers buy domain names that are similar to yours, by dropping letters or using homoglyphs. For instance phishng.com instead of phishing.com. Registering lookalike domain names will help you prevent against this. Also, monitoring Certificate Transparency can help in proactively detecting attacks.
 
-</details>
-
-<details><summary>Set up a bug bounty program <button class=stage>next</button></summary>
-
-A bug bounty program will allow external hackers to report vulnerabilities. Most of the bug bounty programs set rewards in place. You need security-aware people inside your development teams to evaluate any reports you receive, so make sure that you have the right internal resources before you set up such a program.
-
-##### Read more:
-
-https://www.yeswehack.com/en/index.html
-
-https://hackerone.com/
-
-https://cobalt.io
 </details>
 
 ### ⚡️ Your product users
