@@ -91,8 +91,6 @@ Modern browsers support a set of headers dedicated to block certain types of att
 
 [https://securityheaders.io/](https://securityheaders.io/)
 
-[https://myheaders.sqreen.io/](https://myheaders.sqreen.io/)
-
 [https://blog.appcanary.com/2017/http-security-headers.html](https://blog.appcanary.com/2017/http-security-headers.html)
 
 </details><details><summary>Keep your dependencies up to date
@@ -100,8 +98,6 @@ Modern browsers support a set of headers dedicated to block certain types of att
 </button></summary>
 
 Third-party libraries can put your application at risk. Make sure you track your vulnerable packages and update them regularly.
-
-[https://www.sqreen.io/](https://www.sqreen.io/)
 
 [https://pyup.io/](https://pyup.io/)
 
@@ -348,8 +344,6 @@ This is a page on your corporate website describing how you plan to respond to e
 
 Detect and block attacks in real-time using a protection solution. All the OWASP top-10 vulnerabilities (SQL injections, NoSQL injections, cross-site scripting attacks, code/command injections, etc.) are covered.
 
-[https://www.sqreen.io/](https://www.sqreen.io/)
-
 [https://en.wikipedia.org/wiki/Web_application_firewall](https://en.wikipedia.org/wiki/Web_application_firewall)
 
 </details><details><summary>Protect your servers and infrastructure
@@ -369,8 +363,6 @@ Account takeovers or brute force attacks are easy to setup. You should make sure
 [https://www.owasp.org/index.php/Blocking_Brute_Force_Attacks](https://www.owasp.org/index.php/Blocking_Brute_Force_Attacks)
 
 [https://security.stackexchange.com/questions/94432/should-i-implement-incorrect-password-delay-in-a-website-or-a-webservice](https://security.stackexchange.com/questions/94432/should-i-implement-incorrect-password-delay-in-a-website-or-a-webservice)
-
-[https://www.sqreen.io/](https://www.sqreen.io/)
 
 </details><details><summary>Have a public bug bounty program
  <button class=stage>next
@@ -452,8 +444,6 @@ You should be using TLS certificates. It can be a hassle to configure and monito
 
 The most important attacks will come from insider threats. Those can be users or attackers gaining access to privileged user accounts. Make sure you monitor your users to detect attackers before an attack happens.
 
-[https://www.sqreen.io/ ](https://www.sqreen.io/ )
-
 </details><details><summary>Monitor third party vendors
  <button class=stage>now
 </button></summary>
@@ -479,8 +469,6 @@ Just like TLS certificates, DNS can expire. Make sure you monitor your DNS expir
 You will be attacked. Make sure you have a monitoring system in place that will detect security events targeting your application before it’s too late. Knowing when your application is starting to get massively scanned is key to stop more advanced attacks.
 
 [https://www.linode.com/docs/security/using-fail2ban-for-security#email-alerts](https://www.linode.com/docs/security/using-fail2ban-for-security#email-alerts)
-
-[https://www.sqreen.io/](https://www.sqreen.io/)
 
 [http://alerta.io/](http://alerta.io/)
 
