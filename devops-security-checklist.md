@@ -1,11 +1,11 @@
 ---
-title: The DevOps Security Checklist
+title: The DevOps Security Checklist Redux
 date: 2021-06-15
-description: 'Learn how to protect your SaaS applications with the SaaS CTO security checklist. Doing the basics goes a long way in keeping your company and product secure.'
-image: images/blog/blog-saas-checklist.jpg
+description: 'Learn how to protect your product and company with the devops security checklist. Doing the basics goes a long way in keeping your company and product secure.'
+image: images/blog/blog-devops-checklist.jpg
 ---
 
-Security is increasingly becoming the responsibility of DevOps teams. Movements like DevSecOps are contributing to this change. This security checklist aims to give DevOps professionals a list of security best practices they can follow according to their company stage. DevOps teams make security decisions several times, everyday! Security is a moving target.  Doing the basics goes a long way in keeping your company and product secure. This third<sup>1</sup> edition of the DevOps Security Checklist provides actionable security best practices devops teams can use to harden their security.  This list is far from exhaustive, incomplete by nature since the security you need depends on your company, product, and assets.
+Security is increasingly becoming the responsibility of DevOps teams. Movements like DevSecOps are contributing to this change. This security checklist aims to give DevOps professionals a list of security best practices they can follow according to their company stage. Doing the basics goes a long way in keeping your company and product secure. This third<sup>1</sup> edition of the DevOps Security Checklist provides actionable security best practices devops teams can use to harden their security.  This list is far from exhaustive, incomplete by nature since the security you need depends on your company, product, and assets.
 
 <div onclick="document.body.querySelectorAll('details').forEach((e) => (e.hasAttribute('open')) ? e.removeAttribute('open') : e.setAttribute('open',true))"><center>&#x2766;</center></div>
 
@@ -83,6 +83,18 @@ https://download.libsodium.org/doc/
 
 </details>
 
+<details><summary>Protect your CI/CD tools like your product
+ <button class=stage>now
+</button></summary>
+
+Your continuous deployment pipeline is the backbone of your IT. Security should be checked at each step. Your CI builds should fail if you detect a security vulnerability. Store your CI configuration for traceability and audit.
+
+[https://wiki.jenkins-ci.org/display/JENKINS/JobConfigHistory+Plugin](https://wiki.jenkins-ci.org/display/JENKINS/JobConfigHistory+Plugin)
+
+[https://www.slideshare.net/kponiatowski/if-cicd-teams-have-time-for-security-so-do-you](https://www.slideshare.net/kponiatowski/if-cicd-teams-have-time-for-security-so-do-you)
+
+</details>
+
 <details><summary>Ensure you are using security headers
  <button class=stage>now
 </button></summary>
@@ -136,16 +148,6 @@ Integrate a Dynamic Application Security Testing (DAST) tool in your CI, but jus
 If your company doesn’t have yet a structured security team, help create a multidisciplinary Red Team to stress your application and infrastructure. Providing an easy environment for the Red Team to attack the application should be part of the scope of DevOps.
 
 [http://www.devsecops.org/blog/2015/12/10/red-team-pwning-the-hearts-and-minds-one-ticket-at-a-time](http://www.devsecops.org/blog/2015/12/10/red-team-pwning-the-hearts-and-minds-one-ticket-at-a-time)
-
-</details><details><summary>Protect your CI/CD tools like your product
- <button class=stage>now
-</button></summary>
-
-Your continuous deployment pipeline is the backbone of your IT. Security should be checked at each step. Your CI builds should fail if you detect a security vulnerability. Store your CI configuration for traceability and audit.
-
-[https://wiki.jenkins-ci.org/display/JENKINS/JobConfigHistory+Plugin](https://wiki.jenkins-ci.org/display/JENKINS/JobConfigHistory+Plugin)
-
-[https://www.slideshare.net/kponiatowski/if-cicd-teams-have-time-for-security-so-do-you](https://www.slideshare.net/kponiatowski/if-cicd-teams-have-time-for-security-so-do-you)
 
 </details>
 
@@ -311,6 +313,23 @@ Use immutable infrastructures to avoid having to manage and update your servers.
 </details>
 
 ### 🛡️ Protection
+<details><summary>Enforce Two-factor authentication (2FA)
+ <button class=stage>now
+</button></summary>
+
+Enforce 2FA on all the services used (whenever possible).
+
+https://landing.google.com/advancedprotection/
+
+https://docs.github.com/en/organizations/keeping-your-organization-secure/requiring-two-factor-authentication-in-your-organization
+
+https://support.google.com/a/answer/184711
+
+https://get.slack.help/hc/en-us/articles/212221668-Require-two-factor-authentication-for-your-team
+
+https://www.yubico.com/why-yubico/how-yubikey-works/
+
+</details>
 <details><summary>Don’t store credit card information (if you don’t need to) <button class=stage>now</button></summary>
 
 Use third-party services to store credit card information to avoid having to manage and protect them.
@@ -388,19 +407,8 @@ DoS attacks are meant to break your application and make it unavailable to your 
 
 [https://www.ovh.com/us/news/articles/a1171.protection-anti-ddos-service-standard](https://www.ovh.com/us/news/articles/a1171.protection-anti-ddos-service-standard)
 
-</details><details><summary>Enforce Two-factor authentication (2FA)
- <button class=stage>later
-</button></summary>
-
-Enforce 2FA on all the services used (whenever possible).
-
-[https://duo.com/](https://duo.com/)
-
-[https://auth0.com/](https://auth0.com/)
-
-[https://nakedsecurity.sophos.com/2016/08/18/nists-new-password-rules-what-you-need-to-know/](https://nakedsecurity.sophos.com/2016/08/18/nists-new-password-rules-what-you-need-to-know/)
-
-</details><details><summary>Ensure Compliance with Relevant Industry Standards
+</details>
+<details><summary>Ensure Compliance with Relevant Industry Standards
  <button class=stage>later
 </button></summary>
 
@@ -454,11 +462,11 @@ You’re likely to use third party products to manage your servers / payrolls / 
 
 [https://twitter.com/SecurityNewsbot](https://twitter.com/SecurityNewsbot)
 
-</details><details><summary>Monitor your DNS expiration date
+</details><details><summary>Monitor your domain expiration date
  <button class=stage>now
 </button></summary>
 
-Just like TLS certificates, DNS can expire. Make sure you monitor your DNS expiration automatically.
+Just like TLS certificates, domains can expire. Make sure you monitor your domain expiration automatically. 
 
 [https://github.com/glensc/monitoring-plugin-check_domain](https://github.com/glensc/monitoring-plugin-check_domain)
 
