@@ -424,7 +424,7 @@ http://docs.aws.amazon.com/general/latest/gr/aws-security-audit-guide.html
 
 http://searchenterpriselinux.techtarget.com/tip/Creating-an-inventory-with-nmapnetwork-scanning
 
-https://github.com/Netflix/security_monkey
+https://www.goldfiglabs.com/
 
 </details>
 
