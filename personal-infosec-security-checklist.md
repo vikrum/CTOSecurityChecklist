@@ -2,7 +2,7 @@
 title: The Personal Infosec & Security Checklist
 date: 2021-07-09
 description: 'Learn how to protect your personal accounts, settings, and configurations with the Gold Fig personal infosec checklist. Doing the basics goes a long way in keeping your accounts secure.'
-image: images/blog/personal-infosec-checklist.jpg
+image: images/blog/blog-personal-infosec-checklist.jpg
 ---
 
 Doing the basics goes a long way in keeping your personal accounts secure. This first<sup>1</sup> edition of the Personal Infosec & Security Checklist provides actionable security best practices anyone can use to harden their security posture. This list is far from exhaustive, incomplete by nature since the security you need depends on your risks and threats.
